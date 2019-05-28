@@ -10,8 +10,22 @@
 
 Esboço de um simples sistema de consultas e exames clinicos.
 
+## Instalação
+
+php artisan bd:seed
+
+Abrir o arquivo .env e substituir as linhas : DB_DATABASE=SUA_BASE_DE_DADOS /// DB_USERNAME=SEU_NOME_DE_USUARIO /// DB_PASSWORD=SUA_SENHA
+
+Para logar-se como ADMIN, acesse a url http://localhost:8000/admin/login
+
+
+Login e senha padrão: *login:* admin // *senha:*admin ou *login:* marina.ifnmg@gmail.com *senha:*admin
+
+
+
 
 ## Ações disponiveis
+
 
 CRUD de usuário com 3 niveis diferentes de acesso(Amin,paciente e profissional da saúde)
 
@@ -24,7 +38,7 @@ Para envio de email, substitua os seguintes itens no arquivo .env :
 	MAIL_DRIVER=smtp
 	MAIL_HOST=smtp.gmail.com
 	MAIL_PORT=465
-	MAIL_USERNAME=thelesson.souza@gmail.com
+	MAIL_USERNAME=@gmail.com
 	MAIL_PASSWORD=SUA_SENHA
 	MAIL_ENCRYPTION=ssl
 
@@ -83,15 +97,6 @@ Para envio de email, substitua os seguintes itens no arquivo .env :
 ![Inicio](screenshots/26.png)
 
 
-
-## Instalação
-
-
-Abrir o arquivo .env e substituir as linhas : DB_DATABASE=SUA_BASE_DE_DADOS /// DB_USERNAME=SEU_NOME_DE_USUARIO /// DB_PASSWORD=SUA_SENHA
-
-Para logar-se como ADMIN, acesse a url http://SEU_LOCAL_HOST/admin/login
-
-Login e senha padrão: *login:* admin // *senha:*admin ou *login:* thelesson.souza@gmail.com *senha:*admin
 
 
 ## License
